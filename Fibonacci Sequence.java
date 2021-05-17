@@ -9,15 +9,18 @@ public class Fibonacci {
         Scanner SC = new  Scanner(System.in);
         System.out.println("Enter The Upper Limit:");
         int n = SC.nextInt();
+        System.out.println(i);
+        System.out.println(j);
 
 
-        for(int k =1 ; k<=n;k ++){
+        for(int k =1 ; k<=n-2;k ++){
             if (n ==1) {
                 System.out.println("0");
                 System.out.println("1");
                 break;
             }
              else{
+
                 k = i + j;
                 System.out.println(k);
                 i = j;
